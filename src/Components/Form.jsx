@@ -24,7 +24,7 @@ export default () => {
           Get a new meme image
         </button>
       </form>
-      <img src={memeImage} />
+      <img src={memeImage}  className="meme-img"/>
     </main>
   );
 };
